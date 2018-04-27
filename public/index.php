@@ -37,4 +37,4 @@ $request = Request::createFromGlobals();
 $response = $kernel->handle($request);
 $response->send();
 $kernel->terminate($request, $response);
-/*Comment version2.1*/
+/*Comment version2.2*/
